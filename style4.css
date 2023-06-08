@@ -27,7 +27,8 @@ body{
 }
 
 .logo span {
-    color: rgb(48, 48, 78);
+        color: rgb(10, 10, 116);
+
     font-weight: bold;
     font-size: 2rem;
 }
