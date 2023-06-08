@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_1280.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+}
+
+/* Styles pour les écrans de bureau */
+.logo a {
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.logo span {
+    color: rgb(48, 48, 78);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background: #fff;
+    color: black;
+}
+
+ul li.active a {
+    background: #fff;
+    color: black;
+}
+
+.principale {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+/* Styles pour les tablettes et téléphones portables */
+@media only screen and (max-width: 768px) {
+    .logo a {
+        padding: 0 10px;
+        top: 5px;
+        left: 5px;
+        font-size: 14px;
+    }
+
+    .logo span {
+        font-size: 1.5rem;
+    }
+
+    header ul {
+        margin-top: 10px;
+    }
+
+    ul li a {
+        padding: 5px 15px;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .titre h1 {
+        font-size: 40px;
+    }
+
+    .bouton {
+        top: 70%; /* Ajuster la position du bouton pour les mobiles */
+    }
+
+    .paragraphe {
+        top: 80%; /* Ajuster la position du paragraphe pour les mobiles */
+        font-size: 20px; /* Ajuster la taille de police du paragraphe pour les mobiles */
+    }
+
+    img {
+        max-width: 200px; /* Ajuster la largeur maximale de l'image pour les mobiles */
+    }
+
+    video {
+        max-width: 200px; /* Ajuster la largeur maximale de la vidéo pour les mobiles */
+    }
+
+    .image-container {
+        flex-wrap: wrap; /* Permettre le retour à la ligne des images pour les mobiles */
+        justify-content: center; /* Centrer les images horizontalement pour les mobiles */
+        margin-left: 0; /* Supprimer la marge gauche entre les images pour les mobiles */
+    }
+
+    ul.bigcontact {
+        font-size: 30px; /* Ajuster la taille de police de la liste de contacts pour les mobiles */
+        column-count: 1; /* Afficher les contacts en une seule colonne pour les mobiles */
+        margin-left: 0; /* Supprimer la marge gauche pour les mobiles */
+    }
+
+    .content {
+        top: 15%; /* Ajuster la position du contenu pour les mobiles */
+    }
+
+    .texte {
+        top: 20%; /* Ajuster la position du texte pour les mobiles */
+        font-size: 16px; /* Ajuster la taille de police du texte pour les mobiles */
+    }
+}
+
+.bouton {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.btn {
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+h2 {
+    color: #fff;
+    position: absolute;
+    top: 87%;
+}
+
+.paragraphe {
+    color: #fff;
+    position: absolute;
+    top: 93%;
+    font-size: 30px;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+video {
+    border: 2px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+.image-container {
+    display: flex;
+    /* Utiliser le modèle de boîte flexible pour aligner les images horizontalement */
+}
+
+.image-container img {
+    margin-left: 100px;
+    /* Ajouter une marge à droite entre les images */
+}
+
+ul.bigcontact {
+    font-size: 40px;
+    list-style-type: none;
+    column-count: 4;
+    margin-left: 300px;
+}
+
+.content {
+    color: #fff;
+    position: absolute;
+    top: 20%;
+}
+
+.texte {
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    /* ... Autres styles pour les appareils mobiles ... */
+
+    .image-container {
+        flex-wrap: wrap; /* Permettre le retour à la ligne des images pour les mobiles */
+        justify-content: center; /* Centrer les images horizontalement pour les mobiles */
+        margin-left: 0; /* Supprimer la marge gauche entre les images pour les mobiles */
+    }
+
+    .image-container img {
+        margin-left: 10px; /* Ajouter un espace horizontal entre les images pour les mobiles */
+        margin-right: 10px; /* Ajouter un espace horizontal entre les images pour les mobiles */
+        max-width: calc(50% - 20px); /* Définir la largeur maximale des images pour les mobiles */
+        flex-basis: calc(50% - 20px); /* Définir la taille de base des images pour les mobiles */
+    }
+}

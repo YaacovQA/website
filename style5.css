@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_1280.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+.logo a{
+    color: #70318d;
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+.logo span{
+    color: rgb(48, 48, 78);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+header ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background: #fff;
+    color: black;
+}
+
+ul li.active a{
+    background: #fff;
+    color: black;
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1{
+    color: #fff ;
+    font-size: 70px;
+
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.bouton a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.btn{
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+h2{
+    color: #fff;
+    position: absolute;
+    top: 87%;
+}
+.paragraphe{
+    color: #fff;
+    position: absolute;
+    top: 93%;
+    font-size: 30px;
+}
+img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	display:inline;
+}
+video{
+	
+    border: 2px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	display:inline;
+}
+.image-container {
+    display: flex; /* Utiliser le modèle de boîte flexible pour aligner les images horizontalement */
+}
+
+.image-container img {
+    margin-left: 100px; /* Ajouter une marge à droite entre les images */
+}
+
+ul.bigcontact {
+    font-size: 30px;
+    list-style-type: none;
+	column-count:4;
+	margin-left:300px;
+    
+}
+
+.content{
+    color: #fff;
+    position: absolute;
+    top: 20%;
+
+}
+
+.texte{
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    font-size: 20px;
+}
