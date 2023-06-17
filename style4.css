@@ -228,8 +228,10 @@ ul.bigcontact {
     font-size: 20px;
 }
 @media only screen and (max-width: 768px) {
-    /* ... Autres styles pour les appareils mobiles ... */
-
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .image-container {
         flex-wrap: wrap; /* Permettre le retour à la ligne des images pour les mobiles */
         justify-content: center; /* Centrer les images horizontalement pour les mobiles */
