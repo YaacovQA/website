@@ -231,8 +231,7 @@ ul.bigcontact {
     body {
         background-repeat: no-repeat;
         background-size: cover;
-         background-attachment: fixed;
-
+ background-size: 100% 100%;
     }
     .image-container {
         flex-wrap: wrap; /* Permettre le retour à la ligne des images pour les mobiles */
