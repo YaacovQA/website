@@ -7,7 +7,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+		<style>
+			/* Style personnalisé pour le bouton "Submit" */
+			.contact-btn {
+				background-color: transparent; /* Fond transparent */
+				border: none; /* Supprimer la bordure */
+				font-size: inherit; /* Utiliser la taille de police par défaut */
+				font-family: inherit; /* Utiliser la police par défaut */
+				color: inherit; /* Utiliser la couleur par défaut du texte */
+				cursor: pointer; /* Curseur en forme de main au survol */
+				outline: none; /* Supprimer la bordure de focus */
+			}
+		
+			/* Optionnel : Ajouter un style au survol du bouton */
+			.contact-btn:hover {
+				text-decoration: underline; /* Souligner le texte au survol */
+			}
+		</style>
+		
         <!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
         
@@ -158,7 +175,7 @@
 									<div class="col-sm-4">
 										<div class="single-about-add-info">
 											<h3>website</h3>
-											<p>https://yaacovqa.github.io/website/</p>
+											<p>www.brownsine.com</p>
 										</div>
 									</div>
 								</div>
@@ -195,30 +212,33 @@
 			<div class="section-heading text-center">
 				<h2>education</h2>
 			</div>
-			<div class="container">
-				<div class="education-horizontal-timeline">
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2023-2024</h2>
-									<h3>Studying <span> </span> QA Automation engineering</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
+			
+						<div class="container">
+							<div class="row">
+							<div class="col-sm-4">
+								<div class="single-horizontal-timeline">
+									<div class="experience-time">
+										<h2>2023-2024</h2>
+										<h3>Studying <span> </span> QA Automation Engineering</h3>
+									</div><!--/.experience-time-->
+									<div class="timeline-horizontal-border">
+										<i class="fa fa-circle" aria-hidden="true"></i>
+										<span class="single-timeline-horizontal"></span>
+									</div>
+									<div class="timeline">
+										<div class="timeline-content">
+											<h4 class="title">
+	Automation College										</h4>
+											<h5>Tel-Aviv, Israel</h5>
+											<p class="description">
+									
+												I'm currently enrolled in a six-month intensive QA automation training program. This program includes Java, Selenium, and C# and covers a wide range of automation topics. I'm gaining expertise in creating automated test scripts and using testing frameworks for efficient QA processes, all with the goal of enhancing software quality.
+									</div><!--/.timeline-->
 								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-Automation College										</h4>
-										<h5>Tel-Aviv, Israel</h5>
-										<p class="description">
-
-I am currently enrolled in a six-month intensive automation Quality Assurance (QA) training program, which encompasses a wide range of topics in addition to automation. This program includes extensive training in Java, Selenium, and C# as part of the automation curriculum. During this period, I am immersing myself in the world of automated testing, gaining valuable expertise in creating and implementing automated test scripts using these programming languages. I am also becoming proficient in leveraging testing frameworks to ensure the reliability and efficiency of automated QA processes. This comprehensive training equips me with the skills and knowledge to enhance testing efficiency and maintain the utmost quality in software products, while also covering various other subjects.
-								</div><!--/.timeline-->
-							</div>
-						</div>
+							
+							</div></div>
+						<div class="container">
+						<div class="row">
 						<div class="col-sm-4">
 							<div class="single-horizontal-timeline">
 								<div class="experience-time">
@@ -563,93 +583,96 @@ baitshely.com														</h4>
 		
 
 		<!--contact start -->
-		<section id="contact" class="contact">
-			<div class="section-heading text-center">
-				<h2>contact me</h2>
-			</div>
-			<div class="container">
-				<div class="contact-content">
-					<div class="row">
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<div class="contact-form">
-									<form>
-										<div class="row">
-											<div class="col-sm-6 col-xs-12">
-												<div class="form-group">
-												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-											<div class="col-sm-6 col-xs-12">
-												<div class="form-group">
-													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="form-group">
-													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="form-group">
-													<textarea class="form-control" rows="8" id="comment" placeholder="Message" ></textarea>
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="single-contact-btn">
-													<a class="contact-btn" href="mailto:yaacov415@gmail.com" role="button">submit</a>
-												</div><!--/.single-single-contact-btn-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-									</form><!--/form-->
-								</div><!--/.contact-form-->
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<div class="contact-adress">
-									<div class="contact-add-head">
-										<h3>Yaacov Mettoudi</h3>
-										<p>QA engineer</p>
-									</div>
-									<div class="contact-add-info">
-										<div class="single-contact-add-info">
-											<h3>phone</h3>
-											<p>054-943-1930</p>
-										</div>
-										<div class="single-contact-add-info">
-											<h3>email</h3>
-											<p>yaacov415@gmail.com</p>
-										</div>
-										
-									</div>
-								</div><!--/.contact-adress-->
-								<div class="hm-foot-icon">
-									<ul>
-										<li><a href="https://rb.gy/vqq2y" target="_blank"><i class="fa fa-linkedin"></i></a></li><!--/li-->
-									</ul><!--/ul-->
-								</div><!--/.hm-foot-icon-->
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.contact-content-->
-			</div><!--/.container-->
+		<!--contact start -->
+<section id="contact" class="contact">
+    <div class="section-heading text-center">
+        <h2>contact me</h2>
+    </div>
+    <div class="container">
+        <div class="contact-content">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-5 col-sm-6">
+                    <div class="single-contact-box">
+                        <div class="contact-form">
+                            <form action="mailto:yaacov415@gmail.com" method="post" enctype="text/plain">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+                                        </div><!--/.form-group-->
+                                    </div><!--/.col-->
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+                                        </div><!--/.form-group-->
+                                    </div><!--/.col-->
+                                </div><!--/.row-->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+                                        </div><!--/.form-group-->
+                                    </div><!--/.col-->
+                                </div><!--/.row-->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="8" id="comment" placeholder="Message" name="message"></textarea>
+                                        </div><!--/.form-group-->
+                                    </div><!--/.col-->
+                                </div><!--/.row-->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="single-contact-btn">
+                                            <input type="submit" class="contact-btn" value="Submit">
 
-		</section><!--/.contact-->
-		<!--contact end -->
+                                        </div><!--/.single-single-contact-btn-->
+                                    </div><!--/.col-->
+                                </div><!--/.row-->
+                            </form><!--/form-->
+                        </div><!--/.contact-form-->
+                    </div><!--/.single-contact-box-->
+                </div><!--/.col-->
+                <div class="col-md-offset-1 col-md-5 col-sm-6">
+                    <div class="single-contact-box">
+                        <div class="contact-adress">
+                            <div class="contact-add-head">
+                                <h3>Yaacov Mettoudi</h3>
+                                <p>QA engineer</p>
+                            </div>
+                            <div class="contact-add-info">
+                                <div class="single-contact-add-info">
+                                    <h3>Phone</h3>
+                                    <p>054-943-1930</p>
+                                </div>
+                                <div class="single-contact-add-info">
+                                    <h3>Email</h3>
+                                    <p>yaacov415@gmail.com</p>
+                                </div>
+                            
+                            </div>
+                        </div><!--/.contact-adress-->
+                        <div class="hm-foot-icon">
+                            <ul>
+                                <li><a href="https://rb.gy/vqq2y" target="_blank"><i class="fa fa-linkedin"></i></a></li><!--/li-->
+                            </ul><!--/ul-->
+                        </div><!--/.hm-foot-icon-->
+                    </div><!--/.single-contact-box-->
+                </div><!--/.col-->
+            </div><!--/.row-->
+        </div><!--/.contact-content-->
+    </div><!--/.container-->
+</section><!--/.contact-->
+<!--contact end -->
+
+ 
 
 		<!--footer-copyright start-->
 		<footer id="footer-copyright" class="footer-copyright">
 			<div class="container">
 				<div class="hm-footer-copyright text-center">
 					<p>
-						&copy; copyright Yaacov Mettoudi
+						&copy; copyright Yaacov Mettoudi designed and developed by <a href="https://www.themesine.com/">themesine</a>
 					</p><!--/p-->
 				</div><!--/.text-center-->
 			</div><!--/.container-->
